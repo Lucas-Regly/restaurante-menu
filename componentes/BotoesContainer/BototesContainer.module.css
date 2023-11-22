@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    }
+
+
+.btn {
+    border: 2px solid black;
+    width: 150px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+    gap: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.btn img {
+    width: 20%;
+}
+
+.apagarBtn {
+    background-color: #f1f1f1;
+}
+
+.acenderBtn {
+    background-color: goldenrod;
+}
+@media (max-width: 1050px) {
+  .flex {
+    justify-content: center;
+  }
+}

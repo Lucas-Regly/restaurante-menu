@@ -1,0 +1,61 @@
+.cartao {
+    height: auto;
+    width: 30%;
+    border: 1px solid #daa520;
+    border-radius: 15px;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 15px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.primeiro_subcontainer {
+    height: 250px;
+    width: 100%;
+}
+
+.primeiro_subcontainer img {
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.segundo_subcontainer {
+    width: 100%;
+    height: 40%;
+    padding: 0 15px;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.span {
+    color: #daa520;
+}
+
+
+.preco {
+    font-weight: bold;
+}
+
+.preco_container {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.p {
+    font-size: 15px;
+}
+
+@media (max-width: 798px) {
+    .cartao {
+        height: 500px;
+    }
+}
